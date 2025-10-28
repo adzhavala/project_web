@@ -1,0 +1,52 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# SQLite / local DB files
+*.db
+*.sqlite3
+
+# Logs and runtime files
+*.log
+*.pid
+*.seed
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type check caches
+.mypy_cache/
+.pyre/
+
+# Packaging / build
+pip-wheel-metadata/
+build/
+dist/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Env files (secrets)
+.env
+.env.*         # optional: ignore env.* variants
+
+# Node / frontend (if you add node later)
+node_modules/
+
+# Temporary/backups you might create
+*.bak
+*.disabled
+
+# Docker local overrides (optional)
+docker-compose.override.yml
